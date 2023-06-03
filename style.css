@@ -1,0 +1,27 @@
+#container div{
+    border: thin solid black;
+    width: 500px;
+    height: 250px;
+    margin-bottom: 25px;
+}
+img{
+    width: 180px;
+    height: 120px;
+    display: block;
+    border: thin solid red;
+    margin-top: 25px;
+}
+#main-iframe{
+    position: absolute; 
+    width: 700px; 
+    height: 660px; 
+    top: 0; 
+    right: 0; 
+    z-index: 2; 
+    border: thin solid blue;
+    print-color-adjust: exact !important;
+    -webkit-print-color-adjust:exact !important;
+}
+td{
+    padding: 10px;
+}
